@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	color: #777777;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+.container, .robot__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	height: 100vh;
+}
+
+.robot__img {
+	display: block;
+	margin: auto;
+}
+
+.heading, .desciption {
+	text-align: center;
+}
