@@ -121,7 +121,7 @@ line-height: 1;
 
 /* hero */
 .section-hero {
-    background: url(../img/hero.jpg) right center no-repeat white;
+    background: url(../img/hero.jpg) center no-repeat white;
     background-size: contain;
 }
 
