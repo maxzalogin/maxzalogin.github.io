@@ -47,6 +47,10 @@ html {
 	font-size: 1em;
 }
 
+body.body-background {
+	background: url(../img/background.jpg) left no-repeat transparent;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -69,11 +73,10 @@ p.description {
 
 /* Container */
 
-body.container {
+.container {
 	height: 100vh;
-	margin-left: 30px;
 	margin-bottom: 0;
-	background: url(../img/background.jpg) left no-repeat transparent;
+	margin-left: 30px;
 }
 
 /* About */
