@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(/fonts/Roboto-Regular.woff2);
+  src: url(/fonts/Roboto-Regular.woff);
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+ul,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: flex;
+  flex: 1 0 auto;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.avatar {
+  margin: 0 auto;
+  width: 165px;
+  height: 165px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.title::before {
+  content: '@max_zalogin';
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #555;
+}
+
+.title::after {
+  content: 'Frontend developer from Moscow';
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.item:first-child {
+  margin-right: 15px;
+}
+
+
+.telegram,
+.git {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.telegram {
+  background-color: #40B3E0;
+}
+
+.git {
+  background-color: #555;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .list {
+    flex-direction: column;
+    border-top: 2px #FA931B dashed;
+    padding-top: 10px;
+  }
+
+  .item:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
