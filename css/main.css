@@ -142,19 +142,11 @@ button {
 @media (max-width: 500px) {
   .list {
     flex-direction: column;
-    /* border-top: 2px #333 dashed; */
     padding-top: 10px;
   }
 
   .item:nth-child(1) {
     margin-right: 0;
     margin-bottom: 7px;
-  }
-
-  .content {
-    padding: 30px 25px;
-    border: 1px rgb(204, 203, 203) solid;
-    border-radius: 16px;
-    box-shadow: 10px 10px 10px rgb(204, 203, 203);
   }
 }
