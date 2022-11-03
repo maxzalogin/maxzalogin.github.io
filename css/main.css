@@ -108,18 +108,35 @@ a {
 }
 
 .telegram {
+  box-sizing: border-box;
   background-color: #40B3E0;
+}
+
+.telegram:hover {
+  background: #62c1e7;
+}
+
+.telegram:active {
+  background-color: #22b0e9;
+}
+
+.git:hover{
+  background-color: #6f6f6f;
 }
 
 .git {
   background-color: #555;
 }
 
+.git:active{
+  background-color: #3c3c3c;
+}
+
 /* Mobile */
 @media (max-width: 500px) {
   .list {
     flex-direction: column;
-    border-top: 2px #FA931B dashed;
+    /* border-top: 2px #333 dashed; */
     padding-top: 10px;
   }
 
