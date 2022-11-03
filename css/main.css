@@ -34,6 +34,7 @@ a {
 }
 
 button {
+  height: 30px;
   font-family: Roboto;
   font-size: 16px;
   border: none;
@@ -114,7 +115,6 @@ button {
 }
 
 .telegram {
-  box-sizing: border-box;
   background-color: #40B3E0;
 }
 
@@ -148,6 +148,13 @@ button {
 
   .item:nth-child(1) {
     margin-right: 0;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
+  }
+
+  .content {
+    padding: 30px 25px;
+    border: 1px rgb(204, 203, 203) solid;
+    border-radius: 16px;
+    box-shadow: 10px 10px 10px rgb(204, 203, 203);
   }
 }
