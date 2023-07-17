@@ -9,13 +9,17 @@
   font-weight: 400;
 }
 
+html {
+  height: 95%;
+}
+
 body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   font-family: 'Roboto';
 }
 
@@ -28,9 +32,8 @@ h1 {
 }
 
 a {
-  display: flex;
-  flex: 1 0 auto;
   text-decoration: none;
+  color: inherit;
 }
 
 button {
@@ -42,7 +45,14 @@ button {
 
 .content {
   display: flex;
+  flex: 1 0 auto;
+  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+.content-main {
+  display: flex;
   flex-direction: column;
 }
 
@@ -61,7 +71,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-weight: 600;
   font-size: 14px;
 }
 
@@ -74,22 +83,31 @@ button {
 }
 
 .title::after {
-  content: 'Frontend developer from Moscow';
+  content: 'Developer from Moscow';
   margin-top: 5px;
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 14px;
 }
 
-.list {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+.item {
+  justify-content: center;
+  align-items: center;
 }
 
-.item {
+
+.item-link {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+}
+
+
+
+
+.footer {
+  flex: 0 0 auto;
+  align-items:flex-end;
+  color: #6f6f6f;
 }
 
 .icon {
@@ -136,6 +154,12 @@ button {
 
 .git:active{
   background-color: #3c3c3c;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items:center ;
 }
 
 /* Mobile */
