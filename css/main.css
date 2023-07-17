@@ -59,12 +59,9 @@ button {
 
 .avatar {
   margin: 0 auto;
-  width: 165px;
   height: 165px;
   margin-bottom: 15px;
   border-radius: 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .title {
@@ -99,7 +96,6 @@ button {
 
 .item-link {
   display: flex;
-  justify-content: center;
 }
 
 
@@ -166,9 +162,27 @@ button {
 /* Mobile */
 @media (max-width: 500px) {
   .list {
-    flex-direction: column;
+    display: block;
     padding-top: 10px;
   }
+
+.buttom {
+  display: flex;
+  flex: 1 1 auto;
+  justify-items: end;
+  width: 100%;
+}
+
+  .buttom {
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+
+  .item {
+    flex: 1 1 auto;
+  }
+  
 
   .item:nth-child(1) {
     margin-right: 0;
