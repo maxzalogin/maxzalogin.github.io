@@ -38,7 +38,6 @@ a {
 }
 
 button {
-  height: 30px;
   font-family: Roboto;
   font-size: 16px;
   border: none;
@@ -88,10 +87,6 @@ button {
   font-size: 14px;
 }
 
-.item {
-  justify-content: center;
-  align-items: center;
-}
 
 
 .item-link {
@@ -102,13 +97,10 @@ button {
 
 
 .footer {
-  flex: 0 0 auto;
-  align-items:flex-end;
   color: #6f6f6f;
 }
 
 .icon {
-  width: 30px;
   height: 30px;
   margin-right: 15px;
 }
@@ -120,9 +112,6 @@ button {
 
 .telegram,
 .git {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex: 1 0 auto;
   padding: 5px 10px;
   border-radius: 5px;
@@ -172,17 +161,6 @@ button {
   justify-items: end;
   width: 100%;
 }
-
-  .buttom {
-    display: flex;
-    flex-shrink: 1;
-    flex-grow: 1;
-  }
-
-  .item {
-    flex: 1 1 auto;
-  }
-  
 
   .item:nth-child(1) {
     margin-right: 0;
