@@ -11,32 +11,35 @@
   <link rel="stylesheet" href="/css/main.css">
 </head>
 
-
 <body>
-  <header> </header>
   <div class="content">
     <div class="content-main">
-      <img class="avatar" src="/img/avatar.jpg">
-      <h1 class="title">Maksim Zalogin </h1>
+      <img class="avatar" src="/img/avatar.jpg" alt="avatar">
+      <h1 class="title">Maksim Zalogin</h1>
       <ul class="list">
         <li class="item">
-          <a href="//work_zalogin.t.me" target="_blank" class="item-link">
-          <img src="/img/telegram.svg" alt="telegram" class="icon">
-          <button class="telegram">Write to Telegram </button>
-        </a>
+          <a class="item-link" href="//work_zalogin.t.me" target="_blank">
+            <img class="icon" src="/img/telegram.svg" alt="telegram">
+          </a>
+          <button class="telegram" onclick="window.location.href = '//t.me/work_zalogin';">
+            Write to Telegram
+          </button>
         </li>
         <li class="item">
-          <a href="//github.com/maxzalogin" target="_blank" class="item-link">
-          <img src="/img/github.svg" alt="telegram" class="icon">
-          <button class="git">Visit Github profile</button>
-        </a>
+          <a class="item-link" href="//github.com/maxzalogin" target="_blank">
+            <img class="icon" src="/img/github.svg" alt="telegram">
+          </a>
+          <button class="git" onclick="window.location.href = '//github.com/maxzalogin';">
+            Visit Github profile
+          </button>
         </li>
       </ul>
     </div>
   </div>
-  <foter class="footer">
+
+  <footer class="footer">
     The PPN project is <a href="//t.me/thisisppn_bot" target="_blank">here</a>
-  </foter>
+  </footer>
 </body>
 
 </html>
